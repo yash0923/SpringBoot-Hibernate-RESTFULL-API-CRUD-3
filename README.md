@@ -15,17 +15,18 @@ this app will start running on  http://localhost:8080/api/v1/users
 
 
 1.) To save the record (Use post method) (choose post method in postman)
-http://localhost:8080/api/v1/users
+
+    http://localhost:8080/api/v1/users
 
 Write this on postman(select body, in body header, choose raw and change into JSON(application/json))
 
-{
-    "firstName": "an",
-    "lastName": "av",
-    "emailId": "an@gmail.com",
-    "createdBy": "an",
-    "updatedby": "an"
-}
+    {
+     "firstName": "an",
+     "lastName": "av",
+     "emailId": "an@gmail.com",
+     "createdBy": "an",
+     "updatedby": "an"
+    }
 
 
 
@@ -33,8 +34,7 @@ Write this on postman(select body, in body header, choose raw and change into JS
 2.) To retrieve all the data from the database (use get method)( choose get method in postman)
 
 
-
-http://localhost:8080/api/v1/users
+    http://localhost:8080/api/v1/users
 
 
 
@@ -51,6 +51,7 @@ http://localhost:8080/api/v1/users
 
 
     http://localhost:8080/api/v1/users/{id}          eg (1 or 2 or 3 etc......)   
+    
   {
     "firstName": "an",
     "lastName": "av",
@@ -58,7 +59,11 @@ http://localhost:8080/api/v1/users
     "createdBy": "an",
     "updatedby": "an"
 }
+
+
 5.) to delete the data from database (use delete method)( choose delete method in postman)
+
+
    http://localhost:8080/api/v1/users/{id}          eg (1 or 2 or 3 etc......)   
 
 
